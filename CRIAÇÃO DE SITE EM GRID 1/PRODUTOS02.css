@@ -1,0 +1,553 @@
+body{
+  text-align: center;
+  overflow: hidden;
+  background-color: #1C1E52;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+/* HEADER SECTION */
+
+.HEADER_SECTION{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 200px;
+}
+
+
+     /* HEADER */
+     
+     .HEADER01{
+        width: 100%;
+        background-color: #F2CD00;
+        height: 200px;
+     }
+
+
+     /* GRID */
+
+     .GRID_CONTAINER_HEADER01{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: minmax(200px, auto);
+      }
+
+
+         /* GRID 01 */
+
+         .GRID01_HEADER{
+            width: 30%;
+         }
+
+         .LINK_IMG_LOGO_HEADER01{
+            width: 180px;
+            height: 174px;
+         }
+    
+         .IMG_LOGO_HEADER01{
+            width: 180px;
+            height: 174px;
+            padding-top: 10px;
+            margin-left: 80px;
+            border-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+         }
+
+
+         /* GRID 02 */
+
+
+         .BARRA_PESQUISA_HEADER01{
+            width: 800px;
+            height: 70px;
+            border-radius: 15px;
+            margin-top: 65px;
+            display: inline-block;
+         }
+
+         .TXT_BARRA_PESQUISA{
+            margin: 0em;
+            font-size: 150%;
+            color: #F2CD00;
+            text-align: left;
+            font-weight: 900;
+            width: 785px;
+            height: 70px;
+            border-radius: 15px;
+            background-color: #1C1E52;
+         }
+
+         .BTN_BARRA_PESQUISA:hover{
+            background-color: rgb(51, 53, 126);
+         }
+
+         .BTN_BARRA_PESQUISA{
+            position: relative;
+            top: 15px;
+            height: 70px;
+            width: 70px;
+            border-radius: 100%;
+            background-color: #1C1E52;
+            display: inline-block;
+            transition: 0.2s;
+         }
+
+         .ICONE_BTN_BARRA_PESQUISA{
+            height: 50px;
+            width: 50px;
+            margin-top: 10px;
+         }
+
+
+         /* GRID 03 */
+
+         .LINK_BTN_QUEM_SOMOS{
+            text-decoration: none;
+         }
+
+         .BTN_QUEM_SOMOS:hover{
+            background-color: rgb(51, 53, 126);
+         }
+
+         .BTN_QUEM_SOMOS{
+            position: relative;
+            top: 65px;
+            display: inline-block;
+            height: 70px;
+            width: 110px;
+            background-color: #1C1E52;
+            border-radius: 15px;
+            transition: 0.2s;
+            margin-right: 0.5rem;
+         }
+
+         .TXT_BTN_QUEM_SOMOS{
+            margin: 0;
+            color: #F2CD00;
+            font-size: 110%;
+            padding-top: 15px;
+         }
+
+         .LINK_BTN_CONTATOS{
+            text-decoration: none;
+         }
+
+         .BTN_CONTATOS:hover{
+           background-color: rgb(51, 53, 126);
+         }
+
+        .BTN_CONTATOS{
+          position: relative; 
+          top: 55px;
+          display: inline-block;
+          height: 70px;
+          width: 110px;
+          background-color: #1C1E52;
+          border-radius: 15px;
+          transition: 0.2s;
+        }
+
+        .TXT_BTN_CONTATOS{
+          margin: 0; 
+          color: #F2CD00;
+          font-size: 110%;
+          padding-top: 25px;
+        }
+
+        .LINK_BTN_LOGIN{
+          text-decoration: none;
+       }
+
+       .BTN_LOGIN:hover{
+         background-color: rgb(51, 53, 126);
+       }
+
+      .BTN_LOGIN{
+        position: relative; 
+        top: 77px;
+        display: inline-block;
+        height: 70px;
+        width: 110px;
+        background-color: #1C1E52;
+        border-radius: 15px;
+        transition: 0.2s;
+        margin-left: 0.5rem;
+      }
+
+      .TXT_BTN_LOGIN{
+        margin: 0; 
+        color: #F2CD00;
+        font-size: 110%;
+        padding-top: 5px;
+      }
+
+
+
+/* PRODUCTS SECTION */
+
+.PRODUCTS_SECTION{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+}
+
+
+    /* GRID PRODUCTS SECTION */
+
+    .GRID_CONTAINER_PRODUCTS_SECTION{
+      width: 100%;
+      height: 100%;
+      display: grid;
+      grid-template-columns: 250px 250px 250px 250px;
+      grid-template-rows: 300px 300px;
+      grid-column-gap: 80px;
+      grid-row-gap: 60px;
+      background-color: #1C1E52;
+      justify-content: center;
+      padding-top: 40px;
+    }
+
+
+       /* GRID01 */
+
+       .GRID01_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT01:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT01{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT01{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT01{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID02 */
+
+       .GRID02_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT02:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT02{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT02{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT02{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID03 */
+
+       .GRID03_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT03:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT03{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT03{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT03{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID04 */
+
+       .GRID04_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT04:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT04{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT04{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT04{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID05 */
+
+       .GRID05_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT05:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT05{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT05{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT05{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID06 */
+
+       .GRID06_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT06:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT06{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT06{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT06{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID07 */
+
+       .GRID07_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT07:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT07{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT07{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT07{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+       /* GRID08 */
+
+       .GRID08_PRODUCTS{
+         border-radius: 20px;
+         overflow: hidden;
+         background-color: #F2CD00;
+       }
+
+       .IMG_PRODUCT08:hover{
+         transform: scale(1.2);
+       }
+
+       .BOX_IMG_PRODUCT08{
+         width: 250px;
+         height: 250px;
+         overflow: hidden;
+       }
+
+       .IMG_PRODUCT08{
+         width: 250px;
+         height: 250px;
+         transition: 0.5s;
+       }
+
+       .TXT_PRODUCT08{
+         font-size: 120%;
+         font-weight: 900;
+         margin: 0;
+         color: #1C1E52;
+       }
+
+
+
+/* RODAPE SECTION */
+
+.RODAPE{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 920px;
+}
+
+
+   /* GRID */
+
+   .GRID_CONTAINER_RODAPE{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(40px, auto);
+   }
+
+
+     /* GRID 01 */
+
+     .LINK_BTN_PAGINA01{
+      text-decoration: none;
+   }
+
+   .BTN_PRODUCTS_PAGE01:hover{
+      background-color: #ffe65b;
+   }
+
+   .BTN_PRODUCTS_PAGE01{
+      display: inline-block;
+      height: 40px;
+      width: 110px;
+      background-color: #F2CD00;
+      border-radius: 15px;
+      transition: 0.2s;
+      margin-right: 0.5rem;
+   }
+
+   .TXT_BTN_PRODUCTS_PAGE01{
+      margin: 0;
+      color: #1C1E52;
+      font-size: 110%;
+      margin-top: 10px;
+   }
+
+   .LINK_BTN_PAGINA02{
+      text-decoration: none;
+   }
+
+   .BTN_PRODUCTS_PAGE02:hover{
+     background-color: #ffe65b;
+   }
+
+  .BTN_PRODUCTS_PAGE02{
+    display: inline-block;
+    height: 40px;
+    width: 110px;
+    background-color: #F2CD00;
+    border-radius: 15px;
+    transition: 0.2s;
+    margin-left: 0.5rem;
+  }
+
+  .TXT_BTN_PRODUCTS_PAGE02{
+    margin: 0; 
+    color: #1C1E52;
+    font-size: 110%;
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
+

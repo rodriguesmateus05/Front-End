@@ -1,0 +1,228 @@
+body{
+    text-align: center;
+    overflow: hidden;
+    background-color: #1C1E52;
+    margin: 0;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  
+  /* HEADER SECTION */
+  
+  .HEADER_SECTION{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+       /* HEADER */
+       
+       .HEADER01{
+          width: 100%;
+          background-color: #F2CD00;
+          height: 200px;
+       }
+  
+  
+       /* GRID */
+  
+       .GRID_CONTAINER_HEADER01{
+          display: grid;
+          grid-template-columns: 1fr 2fr 1fr;
+          grid-auto-rows: minmax(200px, auto);
+        }
+  
+  
+           /* GRID 01 */
+  
+           .GRID01_HEADER{
+              width: 30%;
+           }
+  
+           .LINK_IMG_LOGO_HEADER01{
+              width: 180px;
+              height: 174px;
+           }
+      
+           .IMG_LOGO_HEADER01{
+              width: 180px;
+              height: 174px;
+              padding-top: 10px;
+              margin-left: 80px;
+              border-radius: 20px;
+              border-top-left-radius: 20px;
+              border-bottom-left-radius: 20px;
+           }
+  
+  
+           /* GRID 02 */
+  
+           .BTN_VOLTAR_PARA_LOJA:hover{
+            background-color: rgb(51, 53, 126);
+           }
+  
+           .BTN_VOLTAR_PARA_LOJA{
+              width: 360px;
+              height: 70px;
+              border-radius: 15px;
+              margin-top: 65px;
+              display: inline-block;
+              background-color: #1C1E52;
+              text-align: left;
+           }
+  
+           .TXT_BTN_VOLTAR_PARA_LOJA{
+            font-size: 300%;
+            font-weight: 900;
+            color: #F2CD00;
+            margin: 0;
+            margin-top: 5px;
+            margin-left: 15px;
+           }
+
+
+
+/* LOGIN SECTION */
+
+.LOGIN_SECTION{
+   position: absolute;
+   top: 200px;
+   width: 100%;
+   height: 100%;
+  }
+
+
+     /* GRID */
+
+     .GRID_CONTAINER{
+      display: grid;
+      grid-template-columns: 300px;
+      grid-auto-rows: 80px 80px 80px 80px;
+      grid-row-gap: 30px;
+      justify-content: center;
+      overflow: hidden;
+      justify-content: center;
+     }
+
+
+       /* GRID 01 */
+
+       .GRID01_TITULO{
+       text-align: center;
+       }
+
+       .TXT_TITULO{
+       font-size: 260%;
+       font-weight: 900;
+       color: #F2CD00;
+       }
+
+       /* GRID 02 */
+
+       .GRID02_EMAIL{
+       text-align: left;
+       }
+
+       .TXT_EMAIL{
+       font-size: 120%;
+       font-weight: 700;
+       color: #F2CD00;
+       margin: 0;
+       margin-bottom: 10px;
+       }
+
+       .EMAIL_IMPUT{
+       width: 292px;
+       height: 20px;
+       }
+
+       /* GRID 03 */
+
+       .GRID03_SENHA{
+       text-align: left;
+       }
+
+       .TXT_SENHA{
+       font-size: 120%;
+       font-weight: 700;
+       color: #F2CD00;
+       margin: 0;
+       margin-bottom: 10px;
+        }
+
+       .SENHA_IMPUT{
+       width: 292px;
+       height: 20px;
+       }
+
+       /* GRID 04 */
+
+       .GRID04_BTN_ENTRAR{
+         text-align: center;
+       }
+
+       .BTN_ENTRAR:hover{
+         background-color: #ffe65b;
+       }
+
+       .BTN_ENTRAR{
+         height: 50px;
+         width: 200px;
+         align-content: center;
+         border-radius: 10px;
+         background-color: #F2CD00;
+         margin-left: 50px;
+         display: flex;
+         justify-content: center;
+         margin-top: 15px;
+       }
+       .TXT_BTN_ENTRAR{
+         font-size: 120%;
+         color: #1C1E52;
+         height: 50px;
+         margin: 0;
+         margin-top: 15px;
+       }
+
+       /* GRID 05 */
+
+       .TXT_CADASTRAR{
+         margin: 0;
+         margin-bottom: 5px;
+         color: #F2CD00;
+       }
+
+       .GRID04_BTN_CADASTRAR{
+        text-align: center;
+      }
+
+      .BTN_CADASTRAR:hover{
+        background-color: #ffe65b;
+      }
+
+      .BTN_CADASTRAR{
+        height: 50px;
+        width: 200px;
+        align-content: center;
+        border-radius: 10px;
+        background-color: #F2CD00;
+        margin-left: 50px;
+        display: flex;
+        justify-content: center;
+      }
+      .TXT_BTN_CADASTRAR{
+        font-size: 120%;
+        color: #1C1E52;
+        height: 50px;
+        margin: 0;
+        margin-top: 15px;
+      }
+
+
+

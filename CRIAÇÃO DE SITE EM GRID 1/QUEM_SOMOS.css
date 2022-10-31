@@ -1,0 +1,133 @@
+body{
+  text-align: center;
+  overflow: hidden;
+  background-color: #1C1E52;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+/* HEADER SECTION */
+
+.HEADER_SECTION{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 200px;
+}
+
+
+     /* HEADER */
+     
+     .HEADER01{
+        width: 100%;
+        background-color: #F2CD00;
+        height: 200px;
+     }
+
+
+     /* GRID */
+
+     .GRID_CONTAINER_HEADER01{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-auto-rows: minmax(200px, auto);
+      }
+
+
+         /* GRID 01 */
+
+         .GRID01_HEADER{
+            width: 30%;
+         }
+
+         .LINK_IMG_LOGO_HEADER01{
+            width: 180px;
+            height: 174px;
+         }
+    
+         .IMG_LOGO_HEADER01{
+            width: 180px;
+            height: 174px;
+            padding-top: 10px;
+            margin-left: 80px;
+            border-radius: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+         }
+
+
+         /* GRID 02 */
+
+         .BTN_VOLTAR_PARA_LOJA:hover{
+          background-color: rgb(51, 53, 126);
+         }
+
+         .BTN_VOLTAR_PARA_LOJA{
+            width: 360px;
+            height: 70px;
+            border-radius: 15px;
+            margin-top: 65px;
+            display: inline-block;
+            background-color: #1C1E52;
+            text-align: left;
+         }
+
+         .TXT_BTN_VOLTAR_PARA_LOJA{
+          font-size: 300%;
+          font-weight: 900;
+          color: #F2CD00;
+          margin: 0;
+          margin-top: 5px;
+          margin-left: 15px;
+         }
+
+
+
+
+/* TXT QUEM SOMOS SECTION */
+
+.QUEM_SOMOS_SECTION{
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+
+   /* GRID */
+
+   .GRID_CONTAINER_QUEM_SOMOS{
+    display: grid;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 750px;
+    grid-gap: 50px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   }
+
+     /* GRID 01 */
+
+     .TITULO_TXT_QUEM_SOMOS{
+      font-size: 300%;
+      color: #F2CD00;
+     }
+  
+     .TXT_QUEM_SOMOS{
+      font-size: 200%;
+      color: #F2CD00;
+      line-height: 40px;
+     }
+
+
+
+
+
+
+
+
